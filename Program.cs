@@ -90,9 +90,9 @@ namespace Osu_Map_Recovery
                         i++;
                     }
                     if (!pastHyphen)
-                        author += splitID[i];
+                        author += splitID[i] + " ";
                     else
-                        title += splitID[i];
+                        title += splitID[i] + " ";
                 }
 
                 // Avoid duplicates
